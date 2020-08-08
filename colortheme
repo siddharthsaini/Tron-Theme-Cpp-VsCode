@@ -1,0 +1,37 @@
+{
+    "editor.tokenColorCustomizations": 
+    {
+     "comments": "#4D5B6B", "variables": "#00DEFF" , "strings": "#34FEBB", "keywords": "#00A3BB", "keywords.other": "#ffffff",
+     "textMateRules": [{
+        "scope": "punctuation",
+        "settings": {
+            "foreground": "#ffffff"
+        }
+    }
+    , 
+    {
+        "scope": "variable.parameter",
+        "settings": {
+            "foreground": "#FF3209"
+          }
+        }
+        , 
+        {
+            "scope": "meta.function-call",
+            "settings": {
+                "foreground": "#3CFFC1"
+              }
+            }
+        ,
+        {
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#34FEBB"
+              }
+            }]
+            
+  },
+  "files.associations": {
+    "iostream": "cpp"
+  },
+}
